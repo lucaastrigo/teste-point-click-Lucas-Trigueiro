@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e8617b1e1c4c24409442f254bcc8863, type: 3}
+  m_Name: peixe morto
+  m_EditorClassIdentifier: 
+  itemName: peixe morto
+  icon: {fileID: -539044425784355039, guid: 0be1d14bf3b0b714ab326d79a9f47e9b, type: 3}

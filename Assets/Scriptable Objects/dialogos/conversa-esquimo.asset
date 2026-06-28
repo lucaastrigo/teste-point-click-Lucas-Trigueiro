@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5c27f319cc14074395f66894d1b4a33, type: 3}
+  m_Name: conversa-esquimo
+  m_EditorClassIdentifier: 
+  lines:
+  - portrait: {fileID: 21300000, guid: 18a4c7815da38ec46999a924f238c5cd, type: 3}
+    charSFX: dialogue-player
+    text: 'pinguim: oi, tudo bem?'
+  - portrait: {fileID: 21300000, guid: 4a977603dfd06cb4e9af1d27b3ca14b8, type: 3}
+    charSFX: dialogue-npc
+    text: "esquim\xF3: tudo sim! e t\xFA?"
+  - portrait: {fileID: 21300000, guid: 18a4c7815da38ec46999a924f238c5cd, type: 3}
+    charSFX: dialogue-player
+    text: "pinguim: t\xF4 \xF3timo! t\xE1 frio e eu adoro o clima assim!"
+  - portrait: {fileID: 21300000, guid: 4a977603dfd06cb4e9af1d27b3ca14b8, type: 3}
+    charSFX: dialogue-npc
+    text: "esquim\xF3: eu n\xE3o gosto tanto de frio, por isso t\xF4 usando essa
+      blusa"
+  - portrait: {fileID: 21300000, guid: 18a4c7815da38ec46999a924f238c5cd, type: 3}
+    charSFX: dialogue-player
+    text: "pinguim: pelo menos voc\xEA t\xE1 estiloso! vou procurar uns peixes agora"
+  - portrait: {fileID: 21300000, guid: 4a977603dfd06cb4e9af1d27b3ca14b8, type: 3}
+    charSFX: dialogue-npc
+    text: "esquim\xF3: obrigada pelo elogio! acho que tem uns peixes perto do iglu"

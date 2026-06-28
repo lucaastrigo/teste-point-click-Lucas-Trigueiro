@@ -1,0 +1,12 @@
+# ninja log v5
+84	1000	8043263845110785	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	4c3579beea7ea5d5
+1002	1591	8043263851570245	D:/Unity Hub/Projects/teste-point-click-Lucas-Trigueiro/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/374zx3w2/obj/arm64-v8a/libswappywrapper.so	e4c153c2e24eeace
+1	1982	8043263855438977	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	c06a6fca0a459fdc
+50	2049	8043263856136985	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	38028968ac6241ce
+68	2069	8043263856346678	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	39b31b0a56336305
+56	2120	8043263856840845	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	59da9e0f8fe98ea1
+79	2174	8043263857409457	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	faafb65d1cc40882
+73	2245	8043263858106955	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	1614421133dcabb8
+62	2325	8043263858900809	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	dd953409a6ab8de3
+44	2520	8043263860820412	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	afacec8b94dd49bc
+2520	2653	8043263862217132	D:/Unity Hub/Projects/teste-point-click-Lucas-Trigueiro/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/374zx3w2/obj/arm64-v8a/libgame.so	64d5a842d04df7d

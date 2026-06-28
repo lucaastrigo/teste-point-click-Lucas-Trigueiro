@@ -3,6 +3,8 @@ using UnityEngine.UI;
 
 public class VolumeController : MonoBehaviour
 {
+    public static VolumeController Instance;
+
     [Header("Sources")]
     [SerializeField] private AudioSource ambienceSource;
     [SerializeField] private AudioSource sfxSource;
@@ -11,6 +13,9 @@ public class VolumeController : MonoBehaviour
     [SerializeField] private Slider masterSlider;
     [SerializeField] private Slider ambienceSlider;
     [SerializeField] private Slider sfxSlider;
+
+    [Header("Audio Clips")]
+    [SerializeField] private AudioClip[] audioClips;
     
     private float masterVolume;
     private float ambienceVolume;
@@ -19,6 +24,11 @@ public class VolumeController : MonoBehaviour
     private const string MasterVolumeKey = "MasterVolume";
     private const string AmbienceVolumeKey = "AmbienceVolume";
     private const string SFXVolumeKey = "SFXVolume";
+
+    private void Awake()
+    {
+        Instance = this;
+    }
 
     private void Start()
     {
@@ -37,6 +47,12 @@ public class VolumeController : MonoBehaviour
         if (masterSlider != null) masterSlider.onValueChanged.AddListener(SetMasterVolume);
 
         if (ambienceSource != null) ambienceSource.ignoreListenerPause = true;
+    }
+
+    public void PlaySound(string soundName)
+    {
+        AudioClip clip = System.Array.Find(audioClips, sound => sound.name == soundName);
+        if (clip != null) sfxSource.PlayOneShot(clip);
     }
 
     public void SetAmbienceVolume(float volume)

@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class Menu : MonoBehaviour
+public class UIMenu : MonoBehaviour
 {
     [SerializeField] private string gameplaySceneName;
     [SerializeField] private Slider loadingBar;
@@ -46,6 +46,7 @@ public class Menu : MonoBehaviour
 
     private void Play()
     {
+        VolumeController.Instance.PlaySound("ui-sfx");
         StartCoroutine(LoadGameplay());
     }
 
@@ -66,11 +67,13 @@ public class Menu : MonoBehaviour
 
     private void Quit()
     {
+        VolumeController.Instance.PlaySound("ui-sfx");
         Application.Quit();
     }
 
     private void SetOptionsVisible(bool visible)
     {
+        VolumeController.Instance.PlaySound("ui-sfx");
         if (mainScreen != null) mainScreen.SetActive(!visible);
         if (optionsScreen != null) optionsScreen.SetActive(visible);
     }

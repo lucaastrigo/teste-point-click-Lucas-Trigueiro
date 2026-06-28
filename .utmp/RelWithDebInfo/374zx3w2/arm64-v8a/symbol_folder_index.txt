@@ -1,0 +1,1 @@
+D:\Unity Hub\Projects\teste-point-click-Lucas-Trigueiro\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\cxx\RelWithDebInfo\374zx3w2\obj\arm64-v8a
